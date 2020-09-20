@@ -14,7 +14,7 @@
   
 
   
-  <title>Xuyang&#39;s Blog</title>
+  <title>shell config</title>
 
   
   
@@ -31,7 +31,7 @@
   <link href="https://jiaxuyang.github.io/favicon.png" rel="icon">
 
   
-  <link href="/index.xml" rel="alternate" type="application/rss+xml" title="Xuyang&#39;s Blog" />
+  
 
   <meta name="description" content="" />
   <meta name="keywords" content="">
@@ -109,52 +109,122 @@
 </nav>
 
 
-
-
-  
-
-<style>
-table.allposts, td.allposts-date, td.allposts-title {
-  border:none;
-}
-
-td.allposts-date {
-    padding: 0 0.5em 0 0;
-}
-
-td.allposts-title {
-    font-size: 110%;
-}
-</style>
-
 <div id="main">
   <div id="content">
     <div>
-      <article role="article">
-          <table class="allposts">
-            
-              
-                <tr>
-                  <td class="allposts-date"><strong>2020 Sep 20</strong></td>
-                  <td class="allposts-title"><a href="https://jiaxuyang.github.io/misc/shell_config/" title="shell config">shell config</a></td>
-                </tr>
-              
-            
-              
-                <tr>
-                  <td class="allposts-date"><strong>2020 Sep 20</strong></td>
-                  <td class="allposts-title"><a href="https://jiaxuyang.github.io/multilingual/toefl_20190801/" title="toefl">toefl</a></td>
-                </tr>
-              
-            
-              
-                <tr>
-                  <td class="allposts-date"><strong>2020 Sep 20</strong></td>
-                  <td class="allposts-title"><a href="https://jiaxuyang.github.io/misc/vscode_extensions/" title="vscode">vscode</a></td>
-                </tr>
-              
-            
-          </table>
+      <article class="hentry" role="article">
+
+        
+        
+
+<header>
+  <p class="meta">Sep 20, 2020
+     - 1 minute read 
+     - <a href="https://jiaxuyang.github.io/misc/shell_config/#disqus_thread">Comments</a>
+
+    
+  </p>
+  <h1 class="entry-title">
+     shell config 
+  </h1>
+</header>
+
+
+        <div class="entry-content">
+          
+          
+          
+            <nav id="TableOfContents"></nav>
+          
+          <h1 id="mac">Mac</h1>
+<ul>
+<li>Zsh
+<ol>
+<li>查看已安装的shells：cat /etc/shells</li>
+<li>安装zsh：brew install zsh</li>
+<li>设置默认shell：chsh -s /bin/zsh</li>
+</ol>
+</li>
+<li>iterm2</li>
+<li>oh-my-zsh
+<ol>
+<li>zsh-syntax-highlighting
+git clone <a href="https://github.com/zsh-users/zsh-syntax-highlighting.git">https://github.com/zsh-users/zsh-syntax-highlighting.git</a> ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting</li>
+<li>autojump
+brew install autojump
+j &ndash;purge</li>
+<li>zsh-autosuggestions
+git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions</li>
+</ol>
+</li>
+</ul>
+<h1 id="ubuntu">Ubuntu</h1>
+<ul>
+<li>Zsh
+<ol>
+<li>查看已安装的shells：cat /etc/shells</li>
+<li>安装zsh：brew install zsh</li>
+<li>设置默认shell：chsh -s /bin/zsh</li>
+</ol>
+</li>
+<li>oh-my-zsh
+<ol>
+<li>zsh-syntax-highlighting
+git clone <a href="https://github.com/zsh-users/zsh-syntax-highlighting.git">https://github.com/zsh-users/zsh-syntax-highlighting.git</a> ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting</li>
+<li>autojump
+brew install autojump
+j &ndash;purge</li>
+<li>zsh-autosuggestions
+git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions</li>
+</ol>
+</li>
+</ul>
+
+        </div>
+        
+
+<footer>
+  <p class="meta">
+    <span class="byline author vcard">Posted by <span class="fn">Xuyang</span></span>
+    
+    <time>Sep 20, 2020</time>
+    
+    </span>
+  </p>
+
+  
+
+  <p class="meta">
+    
+        <a class="basic-alignment left" href="https://jiaxuyang.github.io/misc/vscode_extensions/" title="vscode">vscode</a>
+    
+
+    
+  </p>
+  
+    
+      <div id="disqus_thread"></div>
+<script type="text/javascript">
+  (function() {
+      
+      
+      
+      if (window.location.hostname == "localhost")
+          return;
+
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      var disqus_shortname = 'Your disqus shortname';
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+    
+  
+</footer>
+
       </article>
     </div>
     
@@ -236,6 +306,7 @@ td.allposts-title {
 
   </div>
 </div>
+
     <footer role="contentinfo">
       <p>Copyright &copy; 2020 Xuyang - <a href="https://jiaxuyang.github.io/license/">License</a> -
         <span class="credit">Powered by <a target="_blank" href="https://gohugo.io">Hugo</a> and <a target="_blank" href="https://github.com/parsiya/hugo-octopress/">Hugo-Octopress</a> theme.
@@ -256,6 +327,4 @@ td.allposts-title {
     
   </body>
 </html>
-
-
 
